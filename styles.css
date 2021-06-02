@@ -35,3 +35,6 @@ nav{
 .navbar-custom {
     height: 100px;
   }
+.section-heading{
+    font-size: 3em;
+}
