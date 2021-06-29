@@ -22,11 +22,13 @@ nav{
 }
 .main-heading{
     font-size: 7em ;
-    padding-top: 45%;
+    padding-top: 30%;
+    font-family: 'Caveat', cursive;
 }
 .sub-heading{
     font-size: 2rem ;
     padding-left: 30px;
+    
 }
 #main-img{
     width: 100%;
@@ -41,3 +43,52 @@ nav{
 .test-class{
     color: red;
 }
+.logo{
+    font-size: 30px;
+    font-family: 'Caveat', cursive;
+}
+
+/* WHATSAPP BUTTON WIDGET */
+#whatsapp-button{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #25D366;
+    outline: none;
+}
+#whatsapp-button:hover{
+    transition-duration: 0.25s;
+    background-color: #159c47;
+    width: 65px;
+    height: 65px;
+}
+#whatsapp-button a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 600px) {
+    [class*="col-"] {
+        width: 100%;
+      }
+    .main-heading{
+        font-size: 4.5em ;
+        margin: auto;
+        font-family: 'Caveat', cursive;
+    }
+    .sub-heading{
+        font-size: 1rem ;
+        padding-left: 30px;
+        
+    }
+    #main-img{
+        width: 100%;
+    }
+  }
